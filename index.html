@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <div id="formulario">
+        <Label for="nome">Nome completo</Label>
+        <input id="nome" type="text">
+
+        <label for="email">e-mail</label>
+        <input id="email" type="email">
+
+        <label for="telefone">telefone</label>
+        <input placeholder="(00) 00000-0000" id="telefone" type="text">
+
+        <label for="cpf">CPF</label>
+        <input placeholder="000.000.000-00" id="cpf" type="text" >
+        
+        <label for="cep">CEP</label>
+        <input placeholder="00000-0000" id="cep" type="text">
+
+        <label for="endereco">endereço completo</label>
+        <input id="endereco" type="text">
+        <button type="submit"> OK </button>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="app.js"></script>
+</html>
